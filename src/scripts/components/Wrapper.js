@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Option from './Option'; 
+import Option from './Option';
+import AddPerson from './AddPerson'; 
+import Person from './Person';
 
 const Wrapper = () => {
     return (
@@ -13,6 +15,7 @@ const Wrapper = () => {
             </TabList>
 
             <TabPanel>
+                <AddPerson/>
                 <Option/>
             </TabPanel>
             <TabPanel>
