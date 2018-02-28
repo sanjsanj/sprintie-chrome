@@ -6,5 +6,6 @@
     "default_popup": "index.html",
     "default_title": "Sprintie Ext"
   },
+  "permissions": [ "storage" ],
   "version": "1.0"
 }
