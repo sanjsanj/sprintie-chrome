@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../assets/sprintie.png';
 import '../styles/App.css';
-import Wrapper from './Wrapper'
+import Wrapper from './components/Wrapper'
 
 class App extends Component {
   render() {
