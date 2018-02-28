@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Option from './Option'; 
 
 const Wrapper = () => {
     return (
     <div>
         <Tabs>
             <TabList>
-                <Tab>Team 2</Tab>
+                <Tab>Team 1</Tab>
                 <Tab>Team 2</Tab>
             </TabList>
-            
+
             <TabPanel>
-                <h2>Any content 1</h2>
+                <Option/>
             </TabPanel>
             <TabPanel>
                 <h2>Any content 2</h2>
