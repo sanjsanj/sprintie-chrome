@@ -1,20 +1,13 @@
-import React, { Component } from 'react';
-import logo from '../assets/sprintie.png';
+import React from 'react';
 import '../styles/App.css';
+import Header from './components/Header';
 import Wrapper from './components/Wrapper';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Sprintie!</h1>
-        </header>
-        <Wrapper />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <Header />
+    <Wrapper />
+  </div>
+);
 
 export default App;
